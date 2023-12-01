@@ -1,10 +1,7 @@
 package com.javaunit3.springmvc.model;
 
-import org.hibernate.annotations.Entity;
-import org.hibernate.annotations.Table;
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.hibernate.SessionFactory;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "votes")
